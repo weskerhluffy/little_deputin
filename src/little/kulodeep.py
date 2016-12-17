@@ -10,7 +10,6 @@ nivel_log = logging.ERROR
 #nivel_log = logging.DEBUG
 logger_cagada = None
 
-# http://stackoverflow.com/questions/280243/python-linked-list
 def ordenamiento_mezcla_merge(numeros, idx_a, idx_b, tam_a, tam_b):
     numeros_mergeados = []
     idx_a_tmp = idx_a
